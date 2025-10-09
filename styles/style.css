@@ -1,4 +1,12 @@
 /* Estilos base */
+.header {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border-bottom: 2px solid #ccc;
+}
+
 .page {
   max-width: 1600px;
   margin: 0 auto;
