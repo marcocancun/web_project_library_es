@@ -60,35 +60,44 @@
 /* Contenido del encabezado */
 .header__content {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  margin-top: 58px;
-  flex-wrap: wrap;
-  row-gap: 24px;
-  column-gap: 24px;
+  align-items: flex-start;
+  gap: 120px;
+  padding: 50px 0;
+  margin: 0 auto;
+  max-width: 1600px;
 }
 
-.header__title {
-  max-width: 635px;
-  font-size: 62px;
-  line-height: 76px;
-  font-weight: 500;
-  margin: 150px 0 0;
-  margin-top: 68px;
-}
-
-.header__description {
-  max-width: 515px;
-  font-size: 20px;
-  line-height: 30px;
-  margin: 32px 0 0;
+.header__text {
+  max-width: 580px;
+  flex: 0 0 auto;
 }
 
 .header__image {
-  max-width: 636px;
+  max-width: 780px;
   width: 100%;
   height: auto;
   display: block;
+  flex: 0 0 auto;
 }
+
+.header__title {
+  margin: 0;
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+.header__description {
+  margin: 0;
+  max-width: 465px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+
 .section__title {
   margin: 0 0 40px;
   font-size: 36px;
@@ -196,6 +205,122 @@
   font-size: 20px;
   line-height: 1.5;
   line-height: 24px;
+}
+
+/* Estilos para los eventos */
+.events {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 120px;
+  padding: 100px 0;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.events__content {
+  max-width: 580px;
+  flex: 0 0 auto; /* Cambiado de 0 1 auto */
+}
+
+.events__cover {
+  position: relative;
+  max-width: 780px;
+  flex: 0 0 auto; /* Cambiado de 0 1 auto */
+}
+
+.events__image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.events__heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__title {
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+  margin: 32px 0;
+}
+
+.events__info-section {
+  margin-bottom: 60px;
+}
+
+.events__description {
+  margin: 0;
+}
+
+.events__more {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.person {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.person_name_feynman {
+  position: absolute;
+  top: 96px;
+  left: 319px;
+}
+
+.person_name_burbidge {
+  position: absolute;
+  top: 79px;
+  right: 159px;
+}
+
+.person_name_cannon {
+  position: absolute;
+  bottom: 82px;
+  right: 216px;
+}
+
+.person_name_mitchell {
+  position: absolute;
+  bottom: 82px;
+  left: 142px;
+}
+
+.person_name_tarter {
+  position: absolute;
+  top: 79px;
+  left: 159px;
+}
+
+.person__image {
+  max-width: 100%;
+}
+
+.person__image_size_l {
+  width: 140px;
+}
+
+.person__image_size_m {
+  width: 100px;
+}
+
+.person__image_size_s {
+  width: 80px;
+}
+
+.person__caption {
+  text-align: center;
+  font-size: 14px;
+  margin: 0;
 }
 
 /* Media Queries para diseño responsive */
