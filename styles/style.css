@@ -1,4 +1,4 @@
-/* Estilos base */
+
 .header {
   background-color: #f8f8f8;
   padding: 20px;
@@ -19,8 +19,6 @@
   box-sizing: border-box;
   min-width: 1100px;
 }
-
-/* Navegación */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -102,7 +100,6 @@
   text-align: center;
 }
 
-/* Estilos para las tarjetas del staff */
 .staff__cards {
   max-width: 760px;
   margin: 0 auto;
@@ -178,14 +175,13 @@
   color: #838383;
 }
 
-/* Estilos para la sección del staff */
 .staff {
   padding: 100px 20px;
   background-image: url("../images/staff_picks_background.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #f2f2f2; /* color de respaldo por si la imagen no carga */
+  background-color: #f2f2f2; 
 }
 
 .staff__title {
@@ -205,7 +201,6 @@
   line-height: 24px;
 }
 
-/* Estilos para los eventos */
 .events {
   display: flex;
   flex-direction: row;
@@ -326,7 +321,6 @@
   z-index: 1;
 }
 
-/* Media Queries para diseño responsive */
 @media screen and (max-width: 768px) {
   .header__content {
     flex-direction: column;
