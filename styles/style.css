@@ -73,8 +73,7 @@
 }
 
 .header__image {
-  max-width: 636px;
-  width: 100%;
+  width: 636px;
   height: auto;
   display: block;
   flex: 0 0 auto;
@@ -85,7 +84,7 @@
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
-  margin: 150px 0 32px;
+  margin: 68px 0 32px;
 }
 
 .header__description {
