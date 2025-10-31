@@ -64,8 +64,7 @@
   justify-content: space-between;
   align-items: flex-start;
   gap: 120px;
-  padding: 50px 0;
-  margin: 0 auto;
+  margin: 58px auto 0;
   max-width: 1600px;
 }
 
@@ -78,7 +77,6 @@
   max-width: 780px;
   width: 100%;
   height: auto;
-  display: block;
   flex: 0 0 auto;
 }
 
@@ -221,13 +219,13 @@
 
 .events__content {
   max-width: 580px;
-  flex: 0 0 auto; /* Cambiado de 0 1 auto */
+  flex: 0 0 auto;
 }
 
 .events__cover {
   position: relative;
   max-width: 780px;
-  flex: 0 0 auto; /* Cambiado de 0 1 auto */
+  flex: 0 0 auto;
 }
 
 .events__image {
@@ -271,36 +269,6 @@
   gap: 10px;
 }
 
-.person_name_feynman {
-  position: absolute;
-  top: 96px;
-  left: 319px;
-}
-
-.person_name_burbidge {
-  position: absolute;
-  top: 79px;
-  right: 159px;
-}
-
-.person_name_cannon {
-  position: absolute;
-  bottom: 82px;
-  right: 216px;
-}
-
-.person_name_mitchell {
-  position: absolute;
-  bottom: 82px;
-  left: 142px;
-}
-
-.person_name_tarter {
-  position: absolute;
-  top: 79px;
-  left: 159px;
-}
-
 .person__image {
   max-width: 100%;
 }
@@ -321,6 +289,41 @@
   text-align: center;
   font-size: 14px;
   margin: 0;
+}
+
+.person_name_feynman {
+  position: absolute;
+  top: -30px;
+  left: 319px;
+  z-index: 1;
+}
+
+.person_name_tarter {
+  position: absolute;
+  top: 79px;
+  left: 159px;
+  z-index: 1;
+}
+
+.person_name_mitchell {
+  position: absolute;
+  bottom: 82px;
+  left: 142px;
+  z-index: 1;
+}
+
+.person_name_cannon {
+  position: absolute;
+  bottom: 18px;
+  right: 216px;
+  z-index: 1;
+}
+
+.person_name_burbidge {
+  position: absolute;
+  top: 82px;
+  right: 142px;
+  z-index: 1;
 }
 
 /* Media Queries para diseño responsive */
