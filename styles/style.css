@@ -45,8 +45,8 @@
   color: #000000;
   text-decoration: none;
   font-weight: bold;
-  width: 196px;
-  height: 60px;
+  width: 58px;
+  height: 80px;
 }
 .nav__link {
   color: #000000;
@@ -67,7 +67,7 @@
   flex: 0 0 auto;
 }
 .header__image {
-  width: 635px;
+  width: 636px;
   height: auto;
   display: block;
   flex: 0 0 auto;
