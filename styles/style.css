@@ -66,11 +66,8 @@
   flex: 0 0 auto;
 }
 .header__image {
-  width: 636px;
-  object-fit: cover;
-  height: auto;
-  display: block;
-  flex: 0 0 auto;
+ max-width: 636px;
+ object-fit: cover;
 }
 .header__title {
   max-width: 635px;
