@@ -200,20 +200,12 @@
   justify-content: space-between;
   box-sizing: border-box;
   background-color: #f2f2f2;
-  /*display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 120px;
-  padding: 100px 0;
-  max-width: 1600px;
-  margin: 0 auto;*/
+  
 }
 
 .events__content {
   flex-basis: 580px;  
-  /*max-width: 580px;
-  flex: 0 0 auto;*/
+  
 }
 .events__heading {
   font-size: 20px;
@@ -265,18 +257,13 @@
   flex-basis: 780px;  
   max-width: 780px;
   position: relative;  
-  /*position: relative;
-  max-width: 780px;
-  flex: 0 0 auto;*/
+  
 }
 
 .events__image {
   max-width: 100% 
 
-  /*width: 100%;
-  height: auto;
-  display: block;*/
-}
+  }
 
 .person {
   position: absolute;
