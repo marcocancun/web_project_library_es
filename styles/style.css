@@ -68,10 +68,9 @@
 .header__image {
  max-width: 636px;
  object-fit: cover;
-  /*width: 636px;
   height: auto;
   display: block;
-  flex: 0 0 auto;*/
+  flex: 0 0 auto;
 }
 .header__title {
   max-width: 635px;
