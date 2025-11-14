@@ -30,7 +30,7 @@
 
 .nav__links {
   display: flex;
-  list-style: none; 
+  list-style: none;
   padding: 0;
   margin: 0;
   flex-wrap: wrap;
@@ -70,10 +70,10 @@
 }
 .header__title {
   max-width: 544px;
-  font-size: 66px; 
-  line-height: 76px; 
-  font-weight: 500; 
-  margin: 68px 0 32px; 
+  font-size: 66px;
+  line-height: 76px;
+  font-weight: 500;
+  margin: 68px 0 32px;
 }
 .header__description {
   margin: 0;
@@ -91,7 +91,7 @@
 .staff__cards {
   max-width: 760px;
   margin: 0 auto;
-  margin-top: 40px; 
+  margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -104,7 +104,7 @@
 .card {
   width: 360px;
   height: 420px;
-  padding: 16px 16px 20px 16px; 
+  padding: 16px 16px 20px 16px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -162,7 +162,8 @@
 }
 
 .staff {
-  padding: 100px 20px;   background-image: url("../images/staff_picks_background.jpg");
+  padding: 100px 20px;
+  background-image: url("../images/staff_picks_background.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -173,17 +174,17 @@
   text-align: center;
   color: #fff;
   margin: 0 0 24px;
-  font-size: 42px; 
-  line-height: 1.2; 
-  font-weight: 700; 
+  font-size: 42px;
+  line-height: 1.2;
+  font-weight: 700;
 }
 
 .staff__subtitle {
   text-align: center;
   color: #fff;
-  margin: 8px 0 0; 
+  margin: 8px 0 0;
   font-size: 20px;
-  line-height: 24px; 
+  line-height: 24px;
 }
 
 .events {
@@ -211,7 +212,7 @@
   margin: 32px 0 0;
 }
 .events__info-section {
-  margin-top: 32px; 
+  margin-top: 32px;
   margin-bottom: 32px;
 }
 
