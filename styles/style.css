@@ -30,7 +30,7 @@
 
 .nav__links {
   display: flex;
-  list-style: none;
+  list-style-type: none;
   padding: 0;
   margin: 0;
   flex-wrap: wrap;
@@ -73,7 +73,11 @@
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
-  margin: 68px 0 32px;
+  margin-top:  68px;
+  margin-right: 0;
+  margin-bottom: 32px;
+  margin-left: 0;
+
 }
 .header__description {
   margin: 0;
@@ -98,14 +102,16 @@
   align-items: center;
   gap: 40px;
   padding: 0;
-  padding-left: 0;
   list-style-type: none;
 }
 
 .card {
   width: 360px;
   height: 420px;
-  padding: 16px 16px 20px 16px;
+  padding-top:16px;
+  padding-right:16px;
+  padding-bottom:20px;
+  padding-left:16px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -121,17 +127,23 @@
 }
 
 .card__title {
-  margin: 0 0 8px 0;
+  margin-top:0;
+  margin-right:0;
+  margin-bottom:8px;
+  margin-left:0;
   font-size: 20px;
   line-height: 28px;
   font-weight: 700;
 }
 
 .card__text {
-  margin: 20px 0;
-  font-size: 16px;
-  line-height: 1.5;
+  margin-top: 20px;
+  margin-right: 0;
   margin-bottom: 12px;
+  margin-left: 0;
+  font-size: 16px;
+  line-height: 24px;
+
 }
 
 .card__footer {
@@ -164,7 +176,10 @@
 }
 
 .staff {
-  padding: 100px 20px;
+  padding-top: 100px;
+  padding-right: 20px;
+  padding-bottom: 100px;
+  padding-left: 20px;
   background-image: url("../images/staff_picks_background.jpg");
   background-position: center;
   background-size: cover;
@@ -178,12 +193,16 @@
   margin: 0 0 24px;
   font-size: 42px;
   line-height: 1.2;
+  font-weight: 700;
 }
 
 .staff__subtitle {
   text-align: center;
   color: #fff;
-  margin: 8px 0 0;
+  margin-top: 8px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
   font-size: 20px;
   line-height: 24px;
 }
@@ -213,6 +232,7 @@
   margin: 32px 0 0;
 }
 .events__info-section {
+  margin-top:32px;
   margin-bottom: 32px;
 }
 
