@@ -218,20 +218,20 @@
   margin-bottom: 32px;
 }
 
-.event__info-item {
+.events__info-item {
   display: flex;
   align-items: center;
   margin-bottom: 4px;
   font-weight: 500;
 }
-.event__info-icon {
+.events__info-icon {
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 12px;
   width: 24px;
   height: 24px;
 }
-.event__info__text {
+.events__info__text {
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
