@@ -384,49 +384,85 @@
     font-size: 16px;
   }
 }
+
 .membership {
-  padding: 100px 0 140px;
+  padding: 100px 60px 140px; /* más espacio lateral para centrar el contenido */
   background-color: #057bf2;
   color: #ffffff;
+  border-radius: 12px; /* opcional, si quieres las esquinas redondeadas como en la referencia */
+  box-sizing: border-box;
 }
 
 .membership__title {
-  max-width: 574px;
-  margin: 0 auto;
+  margin: 0 auto 56px;
   text-align: center;
-  font-size: 44px;
-  font-weight: 500;
-  line-height: 52px;
 }
 
+/* distribuir las tarjetas a lo ancho y separarlas uniformemente */
 .membership__steps {
-  list-style-type: none;
+  display: flex;
+  justify-content: space-around; /* espacio uniforme sin parecer tarjetas */
+  align-items: flex-start;
+  gap: 48px;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 0;
-  margin: 100px 0 0;
-  /* Agrega estilos */
+  list-style: none;
+  box-sizing: border-box;
 }
 
+/* mantener ancho fijo por tarjeta para que queden alineadas */
 .step {
-  /* Agrega estilos */
+  background: transparent; /* sin fondo blanco */
+  color: #ffffff; /* texto en blanco sobre el fondo azul */
+  border-radius: 0; /* sin esquinas redondeadas */
+  box-shadow: none; /* sin sombra */
+  padding: 0; /* sin padding tipo tarjeta */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 0 1 auto; /* tamaño basado en contenido */
+  min-height: auto;
+  text-align: left;
 }
 
 .step__title {
   margin: 0;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 28px;
   font-weight: 700;
+  color: #ffffff;
   display: flex;
   align-items: center;
+  gap: 12px;
 }
 
 .step__icon {
-  margin-left: 20px;
+  color: #ffffff;
+  font-size: 18px;
 }
 
 .step__description {
-  margin: 10px 0 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.9);
 }
 
+/* responsive: apilar y centrar en pantallas pequeñas */
+@media (max-width: 768px) {
+  .membership__steps {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .step {
+    text-align: center;
+    width: 100%;
+    max-width: 640px;
+  }
+}
 .footer {
   box-sizing: border-box;
 }
