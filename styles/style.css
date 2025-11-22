@@ -519,13 +519,28 @@
 }
 
 .footer__column-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   color: #a8a8a8;
   text-decoration: none;
-  transition: color 0.3s ease;
 }
 
-.footer__column-link:hover {
-  color: #ffffff;
+.footer__social-icon {
+  width: 20px;
+  height: 20px;
+  display: block;
+  object-fit: contain;
+}
+
+/* Modificadores BEM para cada red social (si necesitas estilos específicos) */
+.footer__social-icon--facebook {
+   background-image: url("../images/facebook_white.svg");
+   /* estilos específicos facebook si aplica */
+}
+.footer__social-icon--instagram {
+   background-image: url("../images/instagram_white.svg");
+   /* estilos específicos instagram si aplica */
 }
 
 .footer__copyright {
@@ -548,13 +563,7 @@
   margin-right: 8px;
 }
 
-.footer__icon--facebook {
-  background-image: url("../images/facebook_white.svg");
-}
 
-.footer__icon--instagram {
-  background-image: url("../images/instagram_white.svg");
-}
 
 /* Responsivo */
 @media (max-width: 768px) {
