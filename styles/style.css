@@ -559,7 +559,7 @@
   color: #a8a8a8;
   margin: 0;
   padding-top: 20px;
-  border-top: 1px solid #333333;
+  border-top: none;
 }
 
 .footer__icon {
