@@ -425,7 +425,6 @@
   flex: 0 1 auto; /* tamaño basado en contenido */
   min-height: auto;
   text-align: left;
-
 }
 
 .step__title {
@@ -449,6 +448,7 @@
   font-size: 14px;
   line-height: 20px;
   color: rgba(255, 255, 255, 0.9);
+  max-width: 220px;
 }
 
 /* responsive: apilar y centrar en pantallas pequeñas */
@@ -474,11 +474,12 @@
 
 .footer__columns {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: flex-start;
   max-width: 1600px;
   margin: 0 auto 40px;
   gap: 0px;
+  flex: 1;
 }
 .footer__column_content_logo {
   order: 0;
@@ -490,18 +491,22 @@
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
+  margin-left: 900px;
 }
 
 .footer__column_content_social {
   flex: 0 0 auto;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .footer__logo {
+  order: 0;
+  text-align: left;
   width: 60px;
   height: 60px;
   margin-bottom: 16px;
   display: block;
-  
 }
 
 .footer__column-heading {
@@ -545,12 +550,12 @@
 
 /* Modificadores BEM para cada red social (si necesitas estilos específicos) */
 .footer__social-icon--facebook {
-   background-image: url("../images/facebook_white.svg");
-   /* estilos específicos facebook si aplica */
+  background-image: url("../images/facebook_white.svg");
+  /* estilos específicos facebook si aplica */
 }
 .footer__social-icon--instagram {
-   background-image: url("../images/instagram_white.svg");
-   /* estilos específicos instagram si aplica */
+  background-image: url("../images/instagram_white.svg");
+  /* estilos específicos instagram si aplica */
 }
 
 .footer__copyright {
@@ -572,8 +577,6 @@
   vertical-align: middle;
   margin-right: 8px;
 }
-
-
 
 /* Responsivo */
 @media (max-width: 768px) {
